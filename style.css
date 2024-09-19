@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color:blue;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: blue;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link, 
+.navbar-brand,
+.navbar-brand:hover, 
+.nav-cardapio .nav-link.active:hover, h1 {
+    color: #fff;
+}
+
+.carousel-item img {
+    display: block;
+    width: 100%;
+    height: 400px;
+}

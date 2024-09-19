@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Caminho dos Campeões</title>
+</head>
+<body>
+    <header class="sticky-top" id="cabecalho">
+            <div class="navbar navbar-expand-lg">
+                <div class="container">
+                    <h1>Caminho dos Campeões</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                        <ul class="nav navbar-nav nav-pills">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#home">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#noticias">Notícias</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contato">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div data-bs-spy="scroll" data-bs-target="cabecalho" data-bs-scroll="true">
+        <section>
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img src="imagens/logo-champions-league.png" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img  src="imagens/taça-da-champions-league.jpg" alt="">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img src="imagens/UCLF23-MAN-CITY-WINNERS.png" alt="">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" tpe="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" tpe="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
