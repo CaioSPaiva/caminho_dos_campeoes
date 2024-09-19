@@ -14,9 +14,7 @@
 }
 
 #cabecalho .nav .nav-link, 
-.navbar-brand,
-.navbar-brand:hover, 
-.nav-cardapio .nav-link.active:hover, h1 {
+h1 {
     color: #fff;
 }
 
