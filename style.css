@@ -4,22 +4,123 @@
     box-sizing: border-box;
 }
 
-.navbar {
-    background-color:blue;
+body {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2, h4 {
+    font-family: "Manrope", sans-serif;
+}
+
+h1 {
+    color:#fff;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 45px;
+}
+
+.navbar,
+.rodape {
+    background-image: linear-gradient(to right, #032FF4, #01035A);
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color: blue;
-    color: #fff;
+    background-color: #fff;
+    color: blue;
 }
 
 #cabecalho .nav .nav-link, 
-h1 {
+.nav-cardapio .nav-link.active:hover {
     color: #fff;
 }
 
-.carousel-item img {
-    display: block;
-    width: 100%;
+.navbar-toggler {
+    background-color: #032FF4;
+}
+
+.carousel-item {
     height: 400px;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-item::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#noticias,
+#tabel,
+#estatisticas,
+#contato {
+    padding-top: 94px;
+}
+
+.bem-vindo, section h2 {
+    padding: 0px 24px;
+    text-align: justify;
+    text-indent: 8px;
+}
+
+.card {
+    margin-bottom: 16px;
+}
+
+p {
+    text-align: justify;
+}
+
+.card-footer {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(91, 91, 118);
+    padding: 6px;
+    text-align: left;
+}
+th {
+    color: #f2f2f2;
+}
+
+.nav-tabs button {
+    color: blue;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+form textarea  {
+    resize: none;
+    height: 150px;
+}
+
+.rodape {
+    color: #fff;
+    display:block;
+}
+
+.rodape p{
+    text-align: center;
+    list-style: none;
+    padding: 10px;
+    font-size: large;
 }
